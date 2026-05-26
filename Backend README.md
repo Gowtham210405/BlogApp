@@ -223,7 +223,7 @@ npm run dev
 Backend runs on:
 
 ```bash
-http://localhost:4000
+http://https://blogapp-backend-yvdb.onrender.com
 ```
 
 ---

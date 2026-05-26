@@ -1,5 +1,5 @@
 ### creating user
-POST http://localhost:4000/user-api/users
+POST http://https://blogapp-backend-yvdb.onrender.com/user-api/users
 Content-Type: application/json
 
 {
@@ -11,7 +11,7 @@ Content-Type: application/json
 }
 
 ### creating user
-POST http://localhost:4000/user-api/users
+POST http://https://blogapp-backend-yvdb.onrender.com/user-api/users
 Content-Type: application/json
 
 {
@@ -25,7 +25,7 @@ Content-Type: application/json
 
 ### authenticating user(login)
 ###
-POST http://localhost:4000/common-api/authenticate
+POST http://https://blogapp-backend-yvdb.onrender.com/common-api/authenticate
 Content-Type: application/json
 
 {
@@ -36,7 +36,7 @@ Content-Type: application/json
 
 ### creating author
 ###
-POST http://localhost:4000/author-api/users
+POST http://https://blogapp-backend-yvdb.onrender.com/author-api/users
 Content-Type: application/json
 
 {
@@ -49,7 +49,7 @@ Content-Type: application/json
 
 ### creating author
 ###
-POST http://localhost:4000/author-api/users
+POST http://https://blogapp-backend-yvdb.onrender.com/author-api/users
 Content-Type: application/json
 
 {
@@ -63,7 +63,7 @@ Content-Type: application/json
 
 ### authenticating author
 ###
-POST http://localhost:4000/common-api/authenticate
+POST http://https://blogapp-backend-yvdb.onrender.com/common-api/authenticate
 Content-Type: application/json
 
 {
@@ -74,7 +74,7 @@ Content-Type: application/json
 
 ###creating the new article
 ###
-POST http://localhost:4000/author-api/articles
+POST http://https://blogapp-backend-yvdb.onrender.com/author-api/articles
 Content-Type: application/json
 
 {
@@ -88,12 +88,12 @@ Content-Type: application/json
 
 #### read the articles of a author
 ####
-GET http://localhost:4000/author-api/articles/69ae861f0be6c87c6027bba8
+GET http://https://blogapp-backend-yvdb.onrender.com/author-api/articles/69ae861f0be6c87c6027bba8
 
 
 #### update article by author
 ###
-PUT http://localhost:4000/author-api/articles
+PUT http://https://blogapp-backend-yvdb.onrender.com/author-api/articles
 Content-Type: application/json
 
 {
@@ -106,7 +106,7 @@ Content-Type: application/json
 }
 
 ### Deleting the article (soft delete)
-PATCH http://localhost:4000/author-api/articles/6989750220ce5bf826ec4f7e/status
+PATCH http://https://blogapp-backend-yvdb.onrender.com/author-api/articles/6989750220ce5bf826ec4f7e/status
 Content-Type: application/json
 
 { "isArticleActive": true }
@@ -120,17 +120,17 @@ Content-Type: application/json
 
 #### logout
 ###
-POST http://localhost:4000/common-api/logout
+POST http://https://blogapp-backend-yvdb.onrender.com/common-api/logout
 
 ### reading article by user
 
 ###
-GET http://localhost:4000/user-api/articles
+GET http://https://blogapp-backend-yvdb.onrender.com/user-api/articles
 ### add comment to an article by user
 
 ###
 ### comment
-PUT http://localhost:4000/user-api/articles
+PUT http://https://blogapp-backend-yvdb.onrender.com/user-api/articles
 Content-Type: application/json
 
 {
@@ -141,19 +141,19 @@ Content-Type: application/json
 
 
 ### checking with Invalid path
-GET http://localhost:4000/test
+GET http://https://blogapp-backend-yvdb.onrender.com/test
 
 
 ###Blocking User by Admin
 
 ###
-PUT http://localhost:4000/admin-api/block/698acb25f4868217c71cf270
+PUT http://https://blogapp-backend-yvdb.onrender.com/admin-api/block/698acb25f4868217c71cf270
 
 ### Unblocking user
-PUT http://localhost:4000/admin-api/unblock/698acb25f4868217c71cf270
+PUT http://https://blogapp-backend-yvdb.onrender.com/admin-api/unblock/698acb25f4868217c71cf270
 
 ### change password
-PUT http://localhost:4000/common-api/change-password
+PUT http://https://blogapp-backend-yvdb.onrender.com/common-api/change-password
 Content-Type: application/json
 
 {

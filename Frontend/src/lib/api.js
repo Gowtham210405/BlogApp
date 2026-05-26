@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:4000",
+  baseURL: "http://https://blogapp-backend-yvdb.onrender.com",
   withCredentials: true,
 });
 
